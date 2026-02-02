@@ -7,3 +7,17 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@theme {
+  --color-blue-50: oklch(0.957 0.02 254.91);
+  --color-blue-100: oklch(0.914 0.043 252.64);
+  --color-blue-200: oklch(0.835 0.086 249.4);
+  --color-blue-300: oklch(0.746 0.141 244.24);
+  --color-blue-400: oklch(0.668 0.155 240.98);
+  --color-blue-500: oklch(0.586 0.137 241.17);
+  --color-blue-600: oklch(0.498 0.116 241.16);
+  --color-blue-700: oklch(0.402 0.094 241.53);
+  --color-blue-800: oklch(0.318 0.074 240.83);
+  --color-blue-900: oklch(0.224 0.052 240.27);
+  --color-blue-950: oklch(0.175 0.042 242.39);
+}
