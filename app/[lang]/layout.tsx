@@ -28,7 +28,7 @@ export async function generateStaticParams() {
 
 export default async function Root(props: {
   children: React.ReactNode;
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const params = await props.params;
 
