@@ -70,14 +70,14 @@ export function Navbar() {
             {/* Desktop CTA */}
             <div className="hidden md:flex items-center gap-4">
               <Link
-                href="#"
+                href="#contact-us"
                 className="text-sm font-medium text-gray-700 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-lg transition-colors"
               >
                 Log in
               </Link>
 
               <Link
-                href="#"
+                href="#contact-us"
                 className="text-sm font-medium bg-blue-600 text-white px-3 py-2 rounded-lg hover:bg-blue-500 transition-colors group flex items-center gap-2"
               >
                 Get Started

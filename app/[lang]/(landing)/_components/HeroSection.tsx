@@ -134,7 +134,7 @@ export function HeroSection() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <Link
-            href="#"
+            href="#contact-us"
             className="text-base font-medium bg-blue-600 text-white px-8 h-12 rounded-lg hover:bg-blue-500 transition-colors group flex items-center gap-2 justify-center"
           >
             Get Started

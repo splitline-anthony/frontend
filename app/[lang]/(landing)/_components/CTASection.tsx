@@ -35,7 +35,10 @@ export function CTASection() {
   };
 
   return (
-    <Section className="bg-linear-to-b from-blue-50 to-blue-50/0 relative">
+    <Section
+      className="bg-linear-to-b from-blue-50 to-blue-50/0 relative"
+      id="contact-us"
+    >
       <div className="absolute inset-0">
         <div className="absolute bottom-0 left-0 w-full h-px bg-linear-to-r from-transparent via-blue-500/50 to-transparent" />
       </div>
