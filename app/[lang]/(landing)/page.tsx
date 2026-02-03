@@ -3,6 +3,7 @@ import { getDictionary, hasLocale } from "@/get-dictionary";
 import {
   FeaturesSection,
   FloatingElements,
+  Footer,
   HeroSection,
   HowItWorksSection,
   Navbar,
@@ -26,6 +27,7 @@ export default async function Page({ params }: PageProps<"/[lang]">) {
         <HowItWorksSection />
         <CTASection />
       </main>
+      <Footer />
     </div>
   );
 }

@@ -5,7 +5,7 @@ import { ArrowRight, Menu, X } from "lucide-react";
 import { motion, AnimatePresence, stagger } from "motion/react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/images/logo.png";
+import logo from "@/images/logo.svg";
 import { fadeInLeft } from "@/lib/animations";
 import { Container } from "@/components";
 

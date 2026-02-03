@@ -40,7 +40,7 @@ export function CTASection() {
       id="contact-us"
     >
       <div className="absolute inset-0">
-        <div className="absolute bottom-0 left-0 w-full h-px bg-linear-to-r from-transparent via-blue-500/50 to-transparent" />
+        <div className="absolute bottom-0 left-0 w-full h-px bg-linear-to-r from-blue-500/0 via-blue-500/50 to-transparent" />
       </div>
       <motion.div
         className="mx-auto max-w-3xl text-center relative z-2"
