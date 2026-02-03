@@ -31,7 +31,7 @@ const socialLinks = [
   // { icon: Twitter, href: "#", label: "Twitter" },
   {
     icon: Linkedin,
-    href: "https://www.linkedin.com/company/splitline-app",
+    href: "https://www.linkedin.com/company/splitlinehq",
     label: "LinkedIn",
   },
   { icon: Mail, href: "mailto:support@splitline.co", label: "Email" },
