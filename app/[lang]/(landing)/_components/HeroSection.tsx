@@ -50,7 +50,7 @@ export function HeroSection() {
     <RotateWords
       key="rotate-words"
       words={["On Your Terms.", "Without Borders."]}
-      options={{ delay: 16000 }}
+      options={{ interval: 16000 }}
     />,
   ];
 
