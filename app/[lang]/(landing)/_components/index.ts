@@ -1,5 +1,7 @@
+export { FeaturesSection } from "./FeaturesSection";
 export { FloatingElements } from "./FloatingElements";
 export { HeroSection } from "./HeroSection";
+export { HowItWorksSection } from "./HowItWorksSection";
 export { Logo } from "./Logo";
 export { Navbar } from "./Navbar";
 export { RotateWords } from "./RotateWords";

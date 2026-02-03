@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { RotateWords } from "./RotateWords";
+import { Section } from "@/components";
 
 export function ScrollIndicator() {
   return (
@@ -55,12 +56,12 @@ export function HeroSection() {
   ];
 
   return (
-    <motion.section className="relative pt-32 pb-20 overflow-hidden bg-linear-to-b from-white to-blue-50/20">
+    <Section className="mt-16 bg-linear-to-b from-white to-blue-50/20 relative">
       <motion.div
         variants={staggerContainer}
         initial="initial"
         animate="animate"
-        className="space-y-8 mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8 text-center relative z-2"
+        className="space-y-8 text-center relative z-2"
       >
         {/* Badge */}
         <motion.div variants={fadeIn}>
@@ -351,6 +352,6 @@ export function HeroSection() {
         </motion.div>
       </motion.div>
       <ScrollIndicator />
-    </motion.section>
+    </Section>
   );
 }

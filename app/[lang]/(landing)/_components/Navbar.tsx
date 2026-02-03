@@ -7,6 +7,7 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "@/images/logo.png";
 import { fadeInLeft } from "@/lib/animations";
+import { Container } from "@/components";
 
 const navLinks = [
   { href: "#features", label: "Features" },
@@ -40,7 +41,7 @@ export function Navbar() {
         animate={{ y: 0 }}
         transition={{ duration: 0.4, ease: "easeOut" }}
       >
-        <div className="mx-auto max-w-7xl w-full px-4 sm:px-6 lg:px-8">
+        <Container>
           <nav
             aria-label="Main"
             className="flex h-16 items-center justify-between"
@@ -100,7 +101,7 @@ export function Navbar() {
               )}
             </button>
           </nav>
-        </div>
+        </Container>
       </motion.header>
 
       {/* Mobile Navigation */}
