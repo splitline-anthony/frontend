@@ -1,9 +1,14 @@
-import { Outfit } from "next/font/google";
+import { Outfit, Inter } from "next/font/google";
 import "../globals.css";
 
 const outfit = Outfit({
   subsets: ["latin"],
   variable: "--font-outfit",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
 });
 
 import { getDictionary, type Locale, locales } from "@/get-dictionary";
@@ -36,7 +41,9 @@ export default async function Root(props: {
 
   return (
     <html lang={params.lang}>
-      <body className={`${outfit.variable} antialiased`}>{children}</body>
+      <body className={`${outfit.variable} ${inter.variable} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }

@@ -2,7 +2,7 @@
 
 import { motion, useScroll } from "motion/react";
 
-export default function ScrollProgress() {
+export function ScrollProgress() {
   const { scrollYProgress } = useScroll();
 
   return (
